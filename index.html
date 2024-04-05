@@ -8,33 +8,62 @@
     <link rel="stylesheet" href="dist/output.css">
     <link rel="stylesheet" href="css/fonts.css">
 </head>
+
+
 <body class="flex items-center justify-center w-screen h-screen bg-gradient-to-br from-zinc-900 to-gray-800 ">     
-    <section class="flex w-1/2 h-[600px] bg-zinc-950 rounded-3xl">
+    <section class="flex w-8/12 h-[600px] bg-zinc-950 rounded-3xl">
         <section 
         id="form" 
         class="flex flex-col items-center text-white basis-5/12">
 
     <h1 class="font-sans text-3xl text-white my-14"> 
         Faça o seu login
-        <span class="inline-block bg-gradient-to-tr from-[#4158d0] via-[#c850c0] via-46% to-[#ffcc70] w-3 h-3 bg-red-300 rounded-full"></span>
+       
+        <span class="inline-block bg-gradient-to-tr from-[#4158d0] via-[#c850c0] via-46% to-[#ffcc70] w-3 h-3 rounded-full"></span>
     </h1>
-    <form action="" class="flex flex-col">
-        <label>
-            email
 
-            <input type="email" />
-        </label>
-        <label>
-            senha
+    <form action="" class="flex flex-col gab-8 ">
+        <label class="flex flex-col font-sans text-lg" >
+            Email
+            
+            <div 
+            class="bg-none focus-within:bg-gradient-to-tr from-[#4158d0] via-[#c850c0] via-46% to-[#ffcc70] p-[1px] rounded-lg" >
+            <input
+             type="email" class="w-full h-10 p-2 rounded-lg outline-none appearance-none bg-zinc-800 " 
+            />     
+        </div>
 
-            <input type="password" />           
         </label>
-        <a>Esqueci minha senha</a>
-        <button type="submit" class="inline-block bg-gradient-to-tr from-[#4158d0] via-[#c850c0] via-46% to-[#ffcc70] rounded-md">Entrar</button>
-        <a>Ainda nao tenho uma conta</a>
+
+        <label class="flex flex-col font-sans text-lg"> 
+            Senha
+
+            <div 
+            class="bg-none focus-within:bg-gradient-to-tr from-[#4158d0] via-[#c850c0] via-46% to-[#ffcc70] p-[1px] rounded-lg" >
+            <input 
+            type="password" class="h-10 p-2 rounded-lg outline-none bg-zinc-800 "
+            />
+            </div>           
+
+        </label>
+
+        <a>
+            Esqueci minha senha
+        </a>
+        
+        <button 
+        type="submit" class="inline-block bg-gradient-to-tr from-[#4158d0] via-[#c850c0] via-46% to-[#ffcc70] rounded-md">Entrar</button>
+        
+        <a>
+            Ainda nao tenho uma conta
+        </a>
+    
     </form>
 </section>
+
     <section id="picture"></section>
+
 </section>
+
 </body>
 </html>
